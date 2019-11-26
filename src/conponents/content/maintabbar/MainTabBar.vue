@@ -12,8 +12,8 @@
         <div slot="item-text">购物车</div>
       </tab-bar-item>
       <tab-bar-item path="category">
-        <img slot="item-icon" src="~assets/img/tabbar/perfile.png" />
-        <img slot="item-icon-active" src="~assets/img/tabbar/perfile_select.png" />
+        <img slot="item-icon" src="~assets/img/tabbar/category.png" />
+        <img slot="item-icon-active" src="~assets/img/tabbar/category_select.png" />
         <div slot="item-text">分类</div>
       </tab-bar-item>
       <tab-bar-item path="profile">

@@ -17,18 +17,22 @@ const routes = [
   },
   {
     path: '/home',
+    name: 'home',
     component: Home
   },
   {
     path: '/category',
+    name: 'category',
     component: Category
   },
   {
     path: '/cart',
+    name: 'cart',
     component: Cart
   },
   {
     path: '/profile',
+    name: 'perfile',
     component: Profile
   }
 ]

@@ -12,9 +12,13 @@ export default {
      path: String
    },
    data() {
-      return {
-        isActive: false
-      }
+      return {}
+   },
+   computed: {
+     isActive() {
+      // this.$route：正在跳转的路由
+       return this.$route.path.indexOf(this.path) !== -1
+     }
    },
    methods:{
      clickLink() {
